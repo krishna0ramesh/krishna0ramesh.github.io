@@ -1,0 +1,152 @@
+.header
+{
+position: absolute;
+width: 1368px;
+height: 768px;
+left: -2px;
+top: 0px;
+
+background: rgba(255, 157, 1, 0.07);
+}
+.header_icon
+{
+position: absolute;
+width: 867px;
+height: 581px;
+left: 526px;
+top: 132px;
+
+
+
+
+}
+.header_heading
+{
+position: absolute;
+width: 455px;
+height: 134px;
+left: 51px;
+top: 270px;
+
+font-family:'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 105%;
+
+color: #000000;
+}
+.header_subheading
+{
+position: absolute;
+width: 502px;
+height: 46px;
+left: 51px;
+top: 424px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+
+color: #000000;
+
+}
+.button1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    
+    position: absolute;
+    width: 143px;
+    height: 43px;
+    left: 51px;
+    top: 494px;
+    
+    /* Logo-primary */
+    
+    background: linear-gradient(90deg, #FF8601 0%, #FF8801 41.32%, #FF9001 61.74%, #FF9D01 77.57%, #FFB000 90.96%, #FFC100 100%);
+    border-radius: 10px;
+}
+.button
+{
+position: static;
+width: 103px;
+height: 23px;
+left: 20px;
+top: 10px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+.button2
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 20px;
+    
+position: absolute;
+width: 143px;
+height: 40px;
+left: 254px;
+top: 494px;
+
+
+background-color: #E5E5E5;
+border-radius: 20px;
+border: 2px solid orange;
+}
+.btn
+{
+    position: static;
+    width: 149px;
+    height: 23px;
+    left: 20px;
+    top: 10px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    
+    color: #192033;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+.revyu
+{
+position: absolute;
+width: 171.04px;
+height: 50px;
+left: 51px;
+top: 28px;
+color: #000000;
+font-size: xx-large;
+font-weight: bold;
+}
